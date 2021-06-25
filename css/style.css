@@ -1,0 +1,184 @@
+.header{
+    width: 100%;
+    float: left;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+}
+.cotainer{
+    width: 1350px;
+    float: left;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.icon{
+    width: 50%;
+    float: left;
+}
+.icon img{
+    margin: 15px 75px;
+    height: 25px;
+}
+.menu{
+    width: 39%;
+    float: left;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    padding-top: 7px;
+}
+.caret{
+    width: 11%;
+    float: left;
+    padding-top: 26px;
+    position: relative;
+    display: inline-block;
+}
+.caret img{
+    height: 20px;
+    width: 25px;
+    padding-left: 5px;
+}
+.dropdown{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: grey;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+}
+.dropdown-content a:hover {
+    background-color: #f0f0f0;
+}
+.caret:hover .dropdown-content{
+    display: block;
+}
+.menu ul{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+.menu ul li{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #2d8cff;
+    padding-left: 20px;
+}
+.dropdown ul li{
+    display: block;
+}
+.dropdown ul{
+    position: absolute;
+    padding: 0px
+}
+.content{
+    box-shadow:inset -2px -1px 26px -8px rgba(133,134,191,1);
+    width: 300px;
+    border-radius: 4px;
+    display: none;
+}
+.menu li.dropdown:hover ul.content{
+    display: block;
+}
+.banner{
+    background-color: #f0f0f0;
+    padding: 35px 120px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.banner1{
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    min-height: 480px;
+    position: relative;
+}
+.banner1 h1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 15px;
+    padding-top: 50px;
+}
+.banner1 p{
+    font-family: Lato;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    margin-bottom: 15px;
+}
+.banner2{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    text-align: left;
+    list-style: none;
+    column-gap: 50px;
+    padding: 0;
+    margin: 0;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+.banner2 li{
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    background: url(https://explore.zoom.us/docs/image/postattendee/checkmarks.svg) no-repeat left top;
+    height: 45px;
+    list-style-type: none;
+}
+.btn-style{
+    background-color: #ff4108cc;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #ff4108cc;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.switch{
+    width: 100%;
+    padding: 50px 305px;
+}
+.contact-us h5{
+    font-size: 18px;
+    font-weight: normal;
+}
+.contact-us img{
+    margin-bottom: 50px;
+    margin-top: -8px;
+}
+.footer{
+    background-color: #f0f0f0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    color: #666;
+    padding-bottom: 25px;
+}
